@@ -1,0 +1,37 @@
+vscode/
+
+# Node
+node_modules/
+.wwebjs_cache/
+.wwebjs_auth/
+
+# Python 
+*.pyc
+*.pcd
+__pycache__/
+
+# Enviroment 
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+src/influxdb/
+src/connect-plugins/
+
+**/tmp
+
+src/server/server
+src/simulator/simulator
+src/subscriber/subscriber
+
+**/.air.toml
+
+go.work.sum
+
+**/erl_crash.dump
